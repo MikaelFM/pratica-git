@@ -5,8 +5,3 @@ class LeitorArquivo:
    
     def getValores(self):
         return self.valores
-    
-if __name__ == '__main_ _':
-    leitor = LeitorArquivo("data.txt")
-    listaValores = leitor.getValores()
-    print(listaValores)    
